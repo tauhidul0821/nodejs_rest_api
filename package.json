@@ -2,11 +2,11 @@
   "name": "worksJS",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "./server/src/server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon ./server/src/server.js",
     "test": "jest",
-    "server": "nodemon server.js"
+    "server": "nodemon ./server/src/server.js"
   },
   "author": "Md. Tauhidul Islam",
   "license": "ISC",
@@ -24,6 +24,7 @@
     "validator": "^10.11.0"
   },
   "devDependencies": {
-    "jest": "^24.5.0"
+    "jest": "^24.5.0",
+    "nodemon": "^1.19.4"
   }
 }
