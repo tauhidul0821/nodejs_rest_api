@@ -1,7 +1,7 @@
 module.exports = {
   mongo: {
     mongoURI:
-      'mongodb://tauhidu_islam:tuHin2093@ds223756.mlab.com:23756/worksjs',
+      'Type you database connection string',
     secretOrKey: 'secret'
   },
   secret: {
